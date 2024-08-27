@@ -17,6 +17,7 @@ async function Home() {
                 <ContactForm></ContactForm>
             </div>
             <FAQ></FAQ>
+
         </motion.div>
 
     );
