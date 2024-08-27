@@ -45,7 +45,7 @@ export function HomePagePartOne() {
                     </div>
 
                     <div className="text-center">
-                        <a href="">
+                        <a href="/contactUs">
                             <button className="btn-home-page">
                             Contact us now {'>'}
                             </button>
