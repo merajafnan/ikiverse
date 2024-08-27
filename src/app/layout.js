@@ -3,8 +3,13 @@ import "./globals.css";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import CommonLayout from "@/components/common-layout";
+import { twMerge } from "tailwind-merge";
+
 
 const inter = Inter({ subsets: ["latin"] });
+
+const dmSans = Inter({ subsets: ["latin"], weight: '400' });
+
 
 export const metadata = {
   title: "Create Next App",
@@ -14,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <body>
+    <body className={twMerge(dmSans.className, "antialiased bg-white")}>
           <CommonLayout
             attribute="class"
             defaultTheme="system"
