@@ -11,8 +11,8 @@ function Header() {
 
   return (
     <header className="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-3 dark:bg-neutral-800">
-      <nav className="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
-        <a className="sm:order-1 flex-none text-xl font-semibold dark:text-white focus:outline-none focus:opacity-80" href="#">Brand</a>
+      <nav className="px-10 w-full mx-auto  flex flex-wrap basis-full items-center justify-between">
+        <a className="sm:order-1 flex-none text-xl font-bold dark:text-white focus:outline-none focus:opacity-80" href="/">IkiVerse</a>
         <div className="sm:order-3 flex items-center gap-x-2">
           <button
             type="button"
@@ -45,7 +45,7 @@ function Header() {
           className={`overflow-hidden transition-all duration-300 basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2 ${isOpen ? 'block' : 'hidden'}`}
         >
           <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
-            <a className="font-medium text-blue-500 focus:outline-none" href="/#" aria-current="page">Home</a>
+            <a className="font-medium  focus:outline-none" href="/#" aria-current="page">Home</a>
             <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-500" href="/aboutUs">About us</a>
             <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-500" href="#">Jobs</a>
             <a className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-500" href="#">Blog</a>

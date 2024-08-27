@@ -10,7 +10,7 @@ function Footer({ user, profileInfo }) {
               href="#"
               aria-label="Brand"
             >
-              LunTekk
+              IkiVerse
             </a>
             <p class="mt-3 text-xs sm:text-sm text-gray-600 dark:text-neutral-400">
               © Providing reliable tech since 2024
