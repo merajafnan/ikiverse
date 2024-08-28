@@ -1,7 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import { HelpAndSupportPartOne } from "@/sections/HelpAndSupportPartOne";
-import { HelpAndSupportPartTwo } from "@/sections/HelpAndSupportPartTwo";
+import FAQ from "@/components/frequently-asked-questions";
+import { AnimatedButton } from "@/sections/AnimatedButton";
 
 
 
@@ -14,7 +15,11 @@ async function Home() {
             transition={{ duration: 0.5 }}>
 
             <HelpAndSupportPartOne></HelpAndSupportPartOne>
-            <HelpAndSupportPartTwo></HelpAndSupportPartTwo>
+            <div className="flex items-center justify-center py-20">
+                <AnimatedButton></AnimatedButton>
+            </div>
+            <FAQ></FAQ>
+
 
         </motion.div>
 

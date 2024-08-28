@@ -1,7 +1,10 @@
 "use client";
 import ContactForm from "@/components/contact-form";
 import FAQ from "@/components/frequently-asked-questions";
+import { AnimatedButton } from "@/sections/AnimatedButton";
 import { ContactUsPartOne } from "@/sections/ContactUsPartOne";
+import { FormSubmitIO } from "@/sections/FormSubmitIO";
+import { HelpAndSupportPartTwo } from "@/sections/HelpAndSupportPartTwo";
 import { motion } from "framer-motion";
 
 async function Home() {
@@ -13,10 +16,11 @@ async function Home() {
             transition={{ duration: 0.5 }}
         >
             <ContactUsPartOne ></ContactUsPartOne>
-            <div id="employerForm" className="py-10">
-                <ContactForm></ContactForm>
+            <HelpAndSupportPartTwo></HelpAndSupportPartTwo>
+            <div className="flex items-center justify-center py-10">
+                <AnimatedButton></AnimatedButton>
             </div>
-            <FAQ></FAQ>
+            
 
         </motion.div>
 

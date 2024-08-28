@@ -16,12 +16,12 @@ async function Home() {
         >
 
 
-                    <HrServicePartOne></HrServicePartOne>
-                    <HrServicePartTwo></HrServicePartTwo>
-                    <HrServicePartThree></HrServicePartThree>
-                    <div className="flex items-center justify-center py-10">
-                        <AnimatedButton></AnimatedButton>
-                </div>
+            <HrServicePartOne></HrServicePartOne>
+            <HrServicePartTwo></HrServicePartTwo>
+            <HrServicePartThree></HrServicePartThree>
+            <div className="flex items-center justify-center py-10">
+                <AnimatedButton></AnimatedButton>
+            </div>
 
         </motion.div>
     );

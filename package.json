@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@popperjs/core": "^2.11.8",
     "@preline/dropdown": "^2.4.1",
     "@tabler/icons-react": "^3.14.0",
     "@tsparticles/engine": "^3.5.0",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.5.0",
+    "axios": "^1.7.5",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
     "flowbite": "^2.5.1",
